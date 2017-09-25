@@ -1,0 +1,1 @@
+alert("là fichier test avec watch"),console.log("là fichier test2");
