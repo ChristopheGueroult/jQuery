@@ -85,7 +85,6 @@ h6 {
 /**------------
  * MEDIUM SCREENS
  ------------*/
-
 @media all and (min-width: $md-screen-breack-point)  {
 	@for $i from 1 through $nbMaxColumns {
 	  .col-md-#{$i}
