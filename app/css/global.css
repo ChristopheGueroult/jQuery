@@ -792,3 +792,38 @@ body > header span {
 @media all and (min-width: 768px) {
   body > header span {
     display: none; } }
+
+.slider {
+  position: relative;
+  overflow: hidden; }
+  .slider ul {
+    padding: 0;
+    width: 9999px;
+    position: relative; }
+  .slider li {
+    list-style: none;
+    float: left;
+    width: 300px; }
+  .slider span {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 2;
+    opacity: .5; }
+    .slider span:hover {
+      transition: all .3s;
+      opacity: 1; }
+  .slider .icon-chevron-left {
+    left: 2%; }
+  .slider .icon-chevron-right {
+    right: 2%; }
+  .slider h1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 100%;
+    color: #212020;
+    z-index: 1; }

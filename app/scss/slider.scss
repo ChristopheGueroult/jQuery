@@ -1,0 +1,44 @@
+@if $use-slider == true {
+	.slider {
+		position: relative;
+		overflow: hidden;
+		ul {
+			padding: 0;
+			width: 9999px;
+			position: relative;
+		}
+		li {
+			list-style: none;
+			float: left;
+			width: 300px;
+		}
+		span {
+			position: absolute;
+			top: 50%;
+			transform: translate(0,-50%);
+			font-size: 3rem;
+			cursor: pointer;
+			z-index: 2;
+			opacity: .5;
+			&:hover {
+				transition: all .3s;
+				opacity: 1;
+			}
+		}
+		.icon-chevron-left {
+			left: 2%;
+		}
+		.icon-chevron-right {
+			right: 2%;
+		}
+		h1 {
+			position: absolute;
+			top: 50%;
+			transform: translate(0,-50%);
+			text-align: center;
+			width: 100%;
+			color: $color4;
+			z-index: 1;
+		}
+	}
+}
