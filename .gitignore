@@ -1,1 +1,4 @@
 node_modules/
+
+app/css/global.css
+app/js/production.js
