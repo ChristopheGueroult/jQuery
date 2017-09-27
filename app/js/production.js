@@ -8,6 +8,7 @@ $(function(){
 		$('body > header nav').slideToggle();
 	});
 });
+<<<<<<< HEAD
 $(function(){
 
 	var interval;
@@ -76,4 +77,8 @@ $(function(){
 
 
 
+=======
+$(function(){
+	
+>>>>>>> 11
 });
